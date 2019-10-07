@@ -15,7 +15,7 @@
 }
 
 .heading {
-    background-color: #8fbc8f;
+    background-color: #8fbc8f !important;
     width: 100%;
  
 }
@@ -31,8 +31,8 @@
 }
 
 .name {
-    font-size: 50px;
-    padding-left: 10px;
+    font-size: 40px;
+    padding-left: 20px;
 }
 
 /* -------------------------------------------------------------nav bar */
@@ -46,36 +46,83 @@
     padding: 0;
     margin: 0;
     width: 100%;
+    background-color: #8fbc8f;
 }
 
 .nav-link {
     font-size: 30px;
     color: #2f4f4f;
     padding: 40px;
+    
 }
 
 .nav-link span {
     padding: 130px;
     text-align: center;
-    width: 100%;
+    margin-left: 10px;
 }
+
+.nav-item {
+    margin-left: 30px;
+}
+
 
 .ui-menu-color-home {
     background-color: #ADD8E6;
+    margin-right: 5px;
+    font-family: "Raleway", sans-serif;
+    color: #2f4f4f;
 }
 
 .ui-menu-color-about {
     background-color: #DCDCDC;
+    margin-right: 5px;
+     font-family: "Raleway", sans-serif;
+    color: #2f4f4f;
 }
 
 .ui-menu-color-comments {
     background-color: #B0C4DE;
+    margin-right: 5px;
+    font-family: "Raleway", sans-serif;
+    color: #2f4f4f;
 }
 
-/* -------------------------------------------------------------Section */
+.navbar-brand {
+    padding-left: 30px;
+    padding-right: 15px;
+    font-family: "Raleway", sans-serif;
+    color: #2f4f4f !important;
+}
 
 
- 
+.navbar {
+    background-color: #8fbc8f !important;
+    
+}
+
+
+
+/* -------------------------------------------------------------Section Contact.html */
+
+h5 {
+    color: #2f4f4f;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+
+}
+
+.bg-color-contact {
+    background-color: #F8F8FF;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 29px;
+    margin-right: 38px;   
+    margin-top: 80px;
+}
+
 
 /* -------------------------------------------------------------Section General.html */
 
@@ -93,10 +140,10 @@ footer {
     height: 32px;
     padding-top: 12px;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 7px;
     text-align: center;
-    color: #696969;
+    color: #696969 !important; 
     background: #f0f8ff;
     background-position: center;
     transition: all 0.35s ease-in-out;
@@ -104,5 +151,19 @@ footer {
 
 .general-sub {
     padding-top: 10px;
+    color: #2f4f4f;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
+.list-inline-item {
+    padding-left: 10px;
+}
+
+.fa fa-facebook {
+    padding-left: 5px;
+}
+
+.list-inline-item-button {
+    margin-left: 30px;
+}
