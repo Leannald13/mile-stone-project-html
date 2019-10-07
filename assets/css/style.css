@@ -19,7 +19,6 @@
     width: 100%;
  
 }
-   
 
 
 .bg-color-name {
@@ -36,44 +35,8 @@
     padding-left: 10px;
 }
 
-/* -------------------------------------------------------------Menu items within heading */
+/* -------------------------------------------------------------nav bar */
 
-.menuitem,
-.menuitem a,
-.menuitem a i {
-    font-size: 30px;
-    color: #2f4f4f;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-}
-
-.menuitem span {
-  width: 100%;
-  text-align: center;
-  font-weight: 400;
-}
-
-
-
-.ui-menu-color-home {
-    width: 100%;
-    background-color: #5F9EA0;
-    height: 20%;
-}
-
-.ui-menu-color-general {
-    width: 100%;
-    background-color: #A9A9A9;
-    height: 20%;
-
-}
-
-.ui-menu-color-contact {
-    width: 100%;
-    background-color: #DCDCDC;
-
-}
 
 .text-center {
     width: 100%;
@@ -82,14 +45,37 @@
 .container-fluid {
     padding: 0;
     margin: 0;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: #2f4f4f;
+    padding: 40px;
+}
+
+.nav-link span {
+    padding: 130px;
+    text-align: center;
+    width: 100%;
+}
+
+.ui-menu-color-home {
+    background-color: #ADD8E6;
+}
+
+.ui-menu-color-about {
+    background-color: #DCDCDC;
+}
+
+.ui-menu-color-comments {
+    background-color: #B0C4DE;
 }
 
 /* -------------------------------------------------------------Section */
 
-.row {
-    background-color: #F0F8FF;
-  
-}
+
+ 
 
 /* -------------------------------------------------------------Section General.html */
 
