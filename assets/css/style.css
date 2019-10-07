@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+/* -------------------------------------------------------------Heading */
+
+.logo {
+    background: url("../images/haribo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    transition: all .5s;
+    display: block;
+}
+
+.heading {
+    background-color: #8fbc8f;
+    width: 100%;
+    padding-top: 10px;
+}
+   
+    
+
+
+.bg-color-name {
+    font-family: "Raleway", sans-serif;
+    color: #2f4f4f;
+    text-align: left;
+    font-weight: 100;
+    width: 100%;
+    
+}
+
+.name {
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+/* -------------------------------------------------------------Menu items within heading */
+
+.menuitem,
+.menuitem a,
+.menuitem a i {
+    font-size: 30px;
+    color: #2f4f4f;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.menuitem span {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+
+
+.ui-menu-color-home {
+    padding-left: 5px;
+    background-color: #5F9EA0;
+}
+
+.ui-menu-color-general {
+    background-color: #A9A9A9;
+    padding: 5px;
+}
+
+.ui-menu-color-contact {
+    background-color: #DCDCDC;
+    padding: 5px;
+}
+
+.text-center {
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------------Section */
+
+.row {
+    background-color: #F0F8FF;
+  
+}
+
+/* -------------------------------------------------------------Section General.html */
+
+.wrapper {
+    display: inline;
+    width: 100%;
+    margin: auto;
+    
+}
+
+/* -------------------------------------------------------------Footer */
+
+footer {
+    background-color: #8fbc8f;
+    padding-bottom: 20px;
+    
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding-top: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #696969;
+    background: #f0f8ff;
+    background-position: center;
+    transition: all 0.35s ease-in-out;
+}
+
+.general-sub {
+    padding-top: 10px;
+}
